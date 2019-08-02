@@ -1,0 +1,123 @@
+
+        .grid-container {
+          font-family: 'Karla', sans-serif;
+          display: grid;
+          grid-template-columns: 300px 100px 100px;
+          padding: 10px;
+          background-color: gray;
+        }
+        .days{
+            color:hsl(71, 73%, 54%)
+        }
+
+        h3{
+            color:  hsl(179, 62%, 43%);
+        }
+
+        .grid-container > div {
+          font-family: 
+          font-size: 16px;
+          text-align: left;
+          padding: 50px;
+        }
+        .item1 {
+               background-color:white; 
+               color: hsl(218, 22%, 67%);
+               float: left;
+            }
+
+          .item2 {  
+            background-color:#0c8f8d;
+            color: white;
+            }
+            .item2 b{
+          font-size:20px;
+          color: rgba(255, 255, 255, 0.582);
+          opacity: 0.70;
+        }
+
+            .item3 > h3{
+              color: aliceblue;
+            }
+
+          .item3  li{ 
+             color: white;
+             list-style-type: none;
+            opacity: 0.50;
+            }
+            .item3{
+              background-color:#009e9b;
+            }
+
+            span p{
+           background-color: hsl(71, 73%, 54%);
+          border-radius: 5px;
+          text-align: center;
+          padding-top: 20px;
+          height: 35px;
+        } 
+
+        @media (min-width: 300px) and (max-width: 670px){
+          span p{
+           background-color: hsl(71, 73%, 54%);
+          border-radius: 5px;
+          text-align: center;
+          padding-top: 20px;
+          height: 35px;
+        } 
+
+        .grid-container {
+          display: grid
+          padding: 10px;
+          background-color: gray;
+        }
+        .item1 {
+          grid-column-start: 1;
+             grid-column-end: 5;
+     }
+
+   .item2 { 
+    grid-column-start: 1;
+             grid-column-end: 5;
+     }
+
+   .item3 { 
+    grid-column-start: 1;
+             grid-column-end: 5;
+     }
+        }
+
+        @media (min-width: 670px) and (max-width: 1440px) {
+          .item1 {
+      
+             grid-column-start: 1;
+             grid-column-end: 5;
+            }
+
+          .item2 { 
+              grid-column-start: 1;
+              grid-column-end: 4;
+            }
+
+          .item3 { 
+            grid-column-start: 4;
+              grid-column-end: 5;
+            }
+        }
+        .dola{
+          font-size: 50px;
+          margin-top: -8px;
+        }
+        .item2 b{
+          font-size:20px;
+          color: rgba(255, 255, 255, 0.582);
+          opacity: 0.70;
+        }
+        span p{
+           background-color: hsl(71, 73%, 54%);
+          border-radius: 5px;
+          text-align: center;
+          padding-top: 20px;
+          height: 35px;
+        } 
+  
